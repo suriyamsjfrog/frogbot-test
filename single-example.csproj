@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="snappier" Version="1.1.0" />
-    <PackageReference Include="Refit" Version="6.0.1" />
+    <PackageReference Include="Refit" Version="7.2.22" />
   </ItemGroup>
 
 </Project>
