@@ -39,7 +39,7 @@ jobs:
 
           # [Mandatory]
           # JFrog platform URL
-          JFROG_CLI_LOG_LEVEL: DEBUG
+          #JFROG_CLI_LOG_LEVEL: DEBUG
           JF_URL: ${{ secrets.JF_URL }}
 
           # [Mandatory if JF_USER and JF_PASSWORD are not provided]
@@ -57,6 +57,7 @@ jobs:
           # [Mandatory]
           # The GitHub token automatically generated for the job
           JF_GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JFROG_CLI_LOG_LEVEL: DEBUG
           JF_FAIL: "false"
           #JF_WATCHES: "suriya-frogbot"
 
