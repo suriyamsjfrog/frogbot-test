@@ -57,6 +57,7 @@ jobs:
           # The GitHub token automatically generated for the job
           JF_GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JF_FAIL: "false"
+          JFROG_CLI_LOG_LEVEL = "DEBUG"
           #JF_WATCHES: "suriya-frogbot"
 
           # [Optional]
