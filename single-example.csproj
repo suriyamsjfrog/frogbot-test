@@ -11,6 +11,7 @@
   <ItemGroup>
     <PackageReference Include="snappier" Version="1.2.0" />
     <PackageReference Include="Refit" Version="7.0.0" />
+    <PackageReference Include="testing" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
